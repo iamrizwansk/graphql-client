@@ -11,7 +11,7 @@ import {
 } from '@apollo/client'
 
 const httpLink = createHttpLink({
-    uri: 'http://localhost:5000'
+    uri: 'https://infinite-island-76547.herokuapp.com/'
 })
 
 const authLink = setContext(() => {
